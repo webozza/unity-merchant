@@ -1,0 +1,279 @@
+/*
+Theme Name: Unity Merchant
+Theme URI: https://webozza.com/
+Version: 1.0
+Description: Custom Child Theme by @webozza
+Author: Webozza
+Template: Divi
+*/
+@import url("../Divi/style.css");
+
+:root {
+  --theme-color: #3674f9;
+  --hover-color: #254992;
+  --um-font: "Poppins", Helvetica, Arial, Lucida, sans-serif;
+}
+
+.hidden {
+  display: none;
+}
+
+/* Hero Slider
+------------------------------------------------------------*/
+.um-hero-section {
+  overflow: hidden;
+}
+.um-hero-section .swiper {
+  overflow: visible;
+}
+.um-hero-section .swiper-slide {
+  opacity: 0;
+  transition: all 1s ease;
+  width: 150%;
+}
+.um-hero-section .swiper-slide.swiper-slide-active {
+  opacity: 1;
+}
+.um-hero-section .swiper-slide img {
+  border-radius: 15px;
+}
+
+/* CTA Buttons
+------------------------------------------------------------*/
+.um-cta {
+  /* background-color: var(--theme-color) !important; */
+  background: linear-gradient(
+    100deg,
+    var(--theme-color) 0%,
+    var(--hover-color) 100%
+  );
+  color: #fff;
+}
+.um-cta:hover {
+  background: linear-gradient(
+    100deg,
+    var(--hover-color) 0%,
+    var(--theme-color) 100%
+  );
+}
+
+/* UM SERVICES
+------------------------------------------------------------*/
+.swiper {
+  font-family: var(--um-font);
+}
+.services-container .service-box:hover {
+  transform: translateY(-50px);
+  transition: all 0.3s ease;
+}
+.services-container .swiper {
+  padding: 50px 0;
+}
+.service-title {
+  text-align: center;
+  margin-top: 10px;
+}
+.service-title h5 {
+  font-size: 1.1em;
+  line-height: 1.2em;
+}
+.services-container {
+  display: flex;
+  align-items: center;
+}
+.um-prev-service {
+  position: absolute;
+  left: -50px;
+}
+.um-next-service {
+  position: absolute;
+  right: -50px;
+}
+
+/* UM FEATURES
+------------------------------------------------------------*/
+.um-features-container {
+  display: flex;
+  flex-direction: row;
+}
+.um-overlay {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-color: rgba(54, 116, 249, 25%);
+}
+.um-feature {
+  width: 50%;
+}
+
+/* HOTSPOT SECTION
+------------------------------------------------------------*/
+.hotspot-container {
+  height: 100%;
+  width: 50%;
+  top: 0;
+  position: absolute;
+}
+.hotspot {
+  z-index: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  position: absolute;
+}
+.hotspot-btn {
+  padding: 4px;
+  background: conic-gradient(
+    from 90deg at 50% 50%,
+    #fcb546 -41.58deg,
+    #bd0053 55.71deg,
+    #ed1e79 125.38deg,
+    #f56f57 184.42deg,
+    #fdbe84 217.83deg,
+    #ffd490 242.3deg,
+    #fece83 269.94deg,
+    #fcb546 318.42deg,
+    #bd0053 415.71deg
+  );
+  box-shadow: 3px 12px 12px -4px rgb(68 23 43 / 68%),
+    inset 0px 1px 0px rgb(255 255 255 / 41%),
+    inset 0px -1px 0px rgb(0 0 0 / 14%);
+  transition: all 0.4s ease;
+  border-radius: 50%;
+  cursor: pointer;
+  min-width: 26px;
+  min-height: 26px;
+}
+.hotspot-outer-circle,
+.hotspot-inner-circle {
+  content: "";
+  display: inline-block;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
+  border-radius: 50%;
+}
+.hotspot-outer-circle {
+  width: 16px;
+  height: 16px;
+}
+.hotspot-inner-circle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  background: linear-gradient(180deg, #ffffff 0%, #f5f7f8 100%);
+  box-shadow: 1px 1px 1px rgb(255 255 255 / 27%),
+    3px 4px 5px rgb(113 21 43 / 51%);
+  padding: 6px;
+  transition: all 0.3s ease;
+}
+.softbeat {
+  -webkit-animation: softbeat 0.7s infinite alternate;
+  animation: softbeat 0.7s infinite alternate;
+  -webkit-animation-timing-function: ease;
+  animation-timing-function: ease;
+}
+@keyframes softbeat {
+  0% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+  100% {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+}
+.hotspot-tooltip {
+  min-width: 300px;
+  min-height: 100px;
+  max-width: 300px;
+  bottom: 0;
+  left: 0;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 7px rgb(0 0 0 / 20%);
+  margin-left: 10px;
+  opacity: 0;
+  transition: all 0.3s ease;
+}
+.hotspot-active .hotspot-tooltip {
+  opacity: 1;
+}
+.hotspot-btn:hover .hotspot-inner-circle,
+.hotspot-active .hotspot-inner-circle {
+  padding: 9px;
+}
+.hotspot-1 {
+  left: 37%;
+  top: 48%;
+}
+.hotspot-2 {
+  left: 40%;
+  top: 35%;
+}
+.hotspot-tooltip {
+  padding: 20px;
+}
+.hotspot-tooltip h5 {
+  font-weight: bold;
+}
+.hotspot-tooltip a {
+  position: relative;
+  top: 5px;
+}
+
+/* VIDEO SECTION
+------------------------------------------------------------*/
+.video-section {
+    margin-top: -10px;
+}
+.video-section .et_pb_row_2 {
+    z-index: 3 !important;
+}
+
+/* CONTACT SECTION
+------------------------------------------------------------*/
+.home-contact .et_pb_row_5 {
+	z-index: 11 !important;
+}
+
+/* FOOTER LINKS
+------------------------------------------------------------*/
+.footer-links ul {
+	list-style: none;padding-left: 0;
+}
+.footer-links ul li a {
+    color: rgba(255,255,255,30%);
+}
+.footer-links h3 {
+    border-bottom: 1px solid rgba(255,255,255,40%);
+    margin-bottom: 20px;
+    max-width: 70%;
+}
+.footer-copyright {
+    width: 100%;
+    padding: 20px 10%;
+    background-color: rgba(0,0,0,20%);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
