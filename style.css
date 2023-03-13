@@ -19,7 +19,7 @@ Template: Divi
 }
 
 body {
-  display: none;
+  display: none !important;
 }
 
 /* Hero Slider
