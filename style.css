@@ -115,19 +115,19 @@ Template: Divi
 }
 
 @media (max-width: 1200px) {
-  .um-features-container {
+  .um-features-section .um-features-container {
     flex-direction: column;
   }
-  .um-feature {
+  .um-features-section .um-feature {
     width: 100%;
   }
-  .hotspot-container {
+  .um-features-section .hotspot-container {
     width: 100%;
   }
-  .hotspot-2 {
+  .um-features-section .hotspot-2 {
     top: 23%;
   }
-  .hotspot-1 {
+  .um-features-section .hotspot-1 {
     left: 39%;
     top: 70%;
   }
