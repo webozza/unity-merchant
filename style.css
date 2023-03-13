@@ -18,6 +18,12 @@ Template: Divi
   display: none;
 }
 
+@media (max-width: 468px) {
+  body {
+    overflow-x: hidden;
+  }
+}
+
 /* Hero Slider
 ------------------------------------------------------------*/
 .um-hero-section {
@@ -45,6 +51,9 @@ Template: Divi
   }
   .um-hero-section .et_pb_row_0 .et_pb_text_0 {
     padding-top: 30px !important;
+  }
+  .um-hero-section .et_pb_row_0 .et_pb_column_1_2 {
+    overflow: hidden;
   }
 }
 
