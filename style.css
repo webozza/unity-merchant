@@ -18,10 +18,6 @@ Template: Divi
   display: none;
 }
 
-body {
-  display: none !important;
-}
-
 /* Hero Slider
 ------------------------------------------------------------*/
 .um-hero-section {
