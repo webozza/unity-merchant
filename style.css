@@ -114,6 +114,25 @@ Template: Divi
   box-shadow: 0 0 7px rgb(0 0 0 / 25%);
 }
 
+@media (max-width: 1200px) {
+  .um-features-container {
+    flex-direction: column;
+  }
+  .um-feature {
+    width: 100%;
+  }
+  .hotspot-container {
+    width: 100%;
+  }
+  .hotspot-2 {
+    top: 23%;
+  }
+  .hotspot-1 {
+    left: 39%;
+    top: 70%;
+  }
+}
+
 /* HOTSPOT SECTION
 ------------------------------------------------------------*/
 .hotspot-container {
