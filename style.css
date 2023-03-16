@@ -310,3 +310,12 @@ Template: Divi
   padding: 20px 10%;
   background-color: rgba(0, 0, 0, 20%);
 }
+
+/* CONSULTATION POPUP
+------------------------------------------------------------*/
+@media (min-width: 1200px) {
+  .wpbs-main-wrapper.wpbs-main-wrapper-calendar-1.wpbs-main-wrapper-form-1 {
+    display: flex;
+    flex-direction: row;
+  }
+}
