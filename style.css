@@ -204,7 +204,8 @@ Template: Divi
   color: var(--theme-color);
 }
 
-.features-header a:after {
+.features-header a:after,
+.um-naked-btn:after {
   content: "\24";
   font-family: "ETmodules";
   padding-left: 5px;
