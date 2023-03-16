@@ -129,6 +129,11 @@ Template: Divi
   border-radius: 25px;
   background-color: rgba(0, 0, 0, 2%);
 }
+.um-services-section .um-naked-btn {
+  float: right;
+  position: relative;
+  top: 15px;
+}
 
 /* UM FEATURES
 ------------------------------------------------------------*/
@@ -198,7 +203,6 @@ Template: Divi
   font-size: 20px;
   text-decoration: none;
   display: flex;
-  justify-content: center;
   align-items: center;
   position: relative;
   color: var(--theme-color);
@@ -453,7 +457,6 @@ Template: Divi
 .um-naked-btn {
   border: none !important;
   font-family: var(--um-font);
-  text-decoration: underline;
 }
 
 /* WHY UM SECTION
