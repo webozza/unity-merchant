@@ -358,3 +358,11 @@ Template: Divi
   font-family: var(--um-font);
   border-radius: 25px;
 }
+.um-naked-btn:hover {
+  background-color: transparent !important;
+}
+.um-naked-btn {
+  border: none !important;
+  font-family: var(--um-font);
+  text-decoration: underline;
+}
