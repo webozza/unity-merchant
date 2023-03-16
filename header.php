@@ -22,17 +22,11 @@
 	<link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" />
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/9.1.0/swiper-bundle.css" integrity="sha512-6HEJkWR1zijwiB3XwQE9eHjDBJmA/Fcl88LlxMba1EC1kakrlXOA14rJmQujhDkTQ6/TSXmGo0w57GbnZ2FSdQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-	<!-- LOCAL STYLESHEETS -->
-	<link rel="stylesheet" href="<?= $stylesheet_path . '/css/select2.min.css' ?>" />
-
 	<script type="text/javascript">
 		document.documentElement.className = 'js';
 	</script>
 
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/9.1.0/swiper-bundle.min.js" integrity="sha512-sR63/L3Slqn0OWMMafv7gmRGxkYJOcfgdN3jznwea9NYiett6R+cGdZ0t0TRHeH1gZogMyLE1oQpQ0Lc6ULKbg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-
-	<!-- LOCAL SCRIPTS -->
-	<script src="<?= $stylesheet_path . '/js/select2.min.js' ?>"></script>
 
 	<?php wp_head(); ?>
 </head>
