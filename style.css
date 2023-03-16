@@ -1,7 +1,7 @@
 /*
 Theme Name: Unity Merchant
 Theme URI: https://webozza.com/
-Version: 3.1.7
+Version: 3.1.8
 Description: Custom Child Theme by @webozza
 Author: Webozza
 Template: Divi
@@ -387,6 +387,21 @@ Template: Divi
 ------------------------------------------------------------*/
 .home-contact > .et_pb_row {
   z-index: 11 !important;
+}
+.home-contact-subscribe-section h2 {
+  font-size: 40px;
+}
+.home-contact-subscribe-section p,
+.home-contact-subscribe-section h2,
+.home-contact-subscribe-section a {
+  color: #fff;
+  text-align: right;
+}
+.home-contact-subscribe-section .et_pb_code_3 {
+  float: right;
+}
+.home-contact-subscribe-section a:before {
+  background-color: #fff;
 }
 
 /* FOOTER LINKS
