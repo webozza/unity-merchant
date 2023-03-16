@@ -422,6 +422,30 @@ Template: Divi
   display: flex;
   align-items: center;
 }
+.footer-copyright > div:last-child .et_pb_text_inner {
+  display: flex;
+  flex-direction: row;
+  column-gap: 10px;
+  justify-content: flex-end;
+}
+
+.footer-copyright > div:last-child .et_pb_text_inner a {
+  color: rgba(255, 255, 255, 40%);
+  font-family: var(--um-font);
+  font-weight: normal;
+  position: relative;
+}
+
+.footer-copyright > div:last-child .et_pb_text_inner a:last-child:before {
+  content: "";
+  width: 4px;
+  height: 4px;
+  position: absolute;
+  background: rgba(255, 255, 255, 40%);
+  left: -12px;
+  border-radius: 50%;
+  top: 10px;
+}
 
 /* CONSULTATION POPUP
 ------------------------------------------------------------*/
