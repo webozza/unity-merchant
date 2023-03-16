@@ -1,7 +1,7 @@
 /*
 Theme Name: Unity Merchant
 Theme URI: https://webozza.com/
-Version: 3.1.4
+Version: 3.1.5
 Description: Custom Child Theme by @webozza
 Author: Webozza
 Template: Divi
@@ -121,6 +121,13 @@ Template: Divi
 .um-next-service {
   position: absolute;
   right: -50px;
+}
+.um-services-section .inner-container {
+  padding-top: 50px;
+  box-shadow: 0 0 7px rgb(0 0 0 / 10%);
+  margin: 0 50px;
+  border-radius: 25px;
+  background-color: rgba(0, 0, 0, 2%);
 }
 
 /* UM FEATURES

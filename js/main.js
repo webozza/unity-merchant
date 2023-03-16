@@ -56,12 +56,20 @@
     });
   };
 
+  let alterStructure = () => {
+    // Services Container
+    $(".um-services-section .et_pb_row").wrapAll(
+      '<div class="inner-container">'
+    );
+  };
+
   $(window).load(function () {
     heroSwiper();
     serviceSwiper();
     slideArrows();
     hotspotTooltip();
     clientSwiper();
+    alterStructure();
   });
 
   // ENDS
