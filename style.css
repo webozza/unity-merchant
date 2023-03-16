@@ -439,15 +439,28 @@ Template: Divi
 .why-um-section .um-naked-btn {
   color: #fff;
   display: flex;
-  justify-content: center;
   align-items: center;
   white-space: nowrap;
   text-decoration: none;
+  font-weight: bold;
+  position: relative;
 }
-
 .why-um-section .um-naked-btn:after {
   content: "\24";
   font-family: "ETmodules";
   font-size: 1.5em;
   padding-left: 6px;
+}
+.why-um-section .um-naked-btn:hover:before {
+  width: 80%;
+}
+.why-um-section .um-naked-btn:before {
+  content: "";
+  width: 0%;
+  height: 3px;
+  position: absolute;
+  background-color: #fff;
+  bottom: 0;
+  border-radius: 25px;
+  transition: all 0.3s ease;
 }
