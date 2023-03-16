@@ -199,6 +199,8 @@ Template: Divi
   display: flex;
   justify-content: center;
   align-items: center;
+  position: relative;
+  color: var(--theme-color);
 }
 
 .features-header a:after {
@@ -211,6 +213,19 @@ Template: Divi
 
 .features-header a:hover:after {
   padding-left: 10px;
+}
+
+.features-header a:before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  width: 0%;
+  height: 2px;
+  background-color: var(--theme-color);
+}
+
+.features-header a:hover:before {
+  width: 100%;
 }
 
 /* HOTSPOT SECTION
