@@ -1,7 +1,7 @@
 /*
 Theme Name: Unity Merchant
 Theme URI: https://webozza.com/
-Version: 3.1.6
+Version: 3.1.7
 Description: Custom Child Theme by @webozza
 Author: Webozza
 Template: Divi
@@ -432,4 +432,22 @@ Template: Divi
   border: none !important;
   font-family: var(--um-font);
   text-decoration: underline;
+}
+
+/* WHY UM SECTION
+------------------------------------------------------------*/
+.why-um-section .um-naked-btn {
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  white-space: nowrap;
+  text-decoration: none;
+}
+
+.why-um-section .um-naked-btn:after {
+  content: "\24";
+  font-family: "ETmodules";
+  font-size: 1.5em;
+  padding-left: 6px;
 }
