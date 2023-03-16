@@ -1,3 +1,12 @@
+<div class="features-header">
+    <div class="inner-left">
+        <h2>Expand Your Business Globally</h2>
+        <p>Accept payments from customers worldwide with our secure and reliable platform.</p>
+    </div>
+    <div class="inner-right">
+        <a class="um-naked-btn" href="javascript:void(0)">Learn More About Our Global Solution</a>
+    </div>
+</div>
 <div class="um-features-container">
     <!-- <div class="um-overlay"></div> -->
     <div class="um-feature">
