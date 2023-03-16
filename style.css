@@ -193,7 +193,8 @@ Template: Divi
   font-size: 16px;
 }
 
-.features-header a {
+.features-header a,
+.um-naked-btn {
   font-size: 20px;
   text-decoration: none;
   display: flex;
