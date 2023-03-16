@@ -377,6 +377,14 @@ Template: Divi
 .video-section .et_pb_row_3 .et_pb_column_6 .et_pb_video_box iframe {
   border-radius: 25px !important;
 }
+.video-section .um-naked-btn:before {
+  background-color: #fff;
+}
+.video-section .um-naked-btn {
+  color: #fff;
+  text-decoration: none;
+  float: left;
+}
 
 /* CONTACT SECTION
 ------------------------------------------------------------*/
