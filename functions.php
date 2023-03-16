@@ -3,11 +3,11 @@
 function webozza_assets() {
     // STYLESHEETS
     wp_enqueue_style( 'swiper', get_stylesheet_directory_uri() . '/css/swiper.min.css' );
-    wp_enqueue_style( 'select2', get_stylesheet_directory_uri() . '/css/select2.min.css' );
+    // wp_enqueue_style( 'select2', get_stylesheet_directory_uri() . '/css/select2.min.css' );
 
     // SCRIPTS
     wp_enqueue_script( 'swiper', get_stylesheet_directory_uri() . '/js/swiper.min.js', array('jquery') );
-    wp_enqueue_script( 'select2', get_stylesheet_directory_uri() . '/js/select2.min.js', array('jquery') );
+    // wp_enqueue_script( 'select2', get_stylesheet_directory_uri() . '/js/select2.min.js', array('jquery') );
     wp_enqueue_script( 'main', get_stylesheet_directory_uri() . '/js/main.js', array('jquery') );
     
 }
