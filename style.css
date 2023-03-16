@@ -319,3 +319,14 @@ Template: Divi
     flex-direction: row;
   }
 }
+
+/* UM BUTTONS
+------------------------------------------------------------*/
+.um-btn-primary,
+.wpbs-form-submit-button {
+  background: linear-gradient(
+    100deg,
+    var(--theme-color) 0%,
+    var(--hover-color) 100%
+  );
+}
