@@ -353,3 +353,8 @@ Template: Divi
     var(--hover-color) 100%
   );
 }
+.um-btn-primary {
+  color: #fff;
+  font-family: var(--um-font);
+  border-radius: 25px;
+}
