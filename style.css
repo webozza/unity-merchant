@@ -403,6 +403,9 @@ Template: Divi
 .home-contact-subscribe-section a:before {
   background-color: #fff;
 }
+.home-contact-subscribe-section a {
+  float: right;
+}
 
 /* FOOTER LINKS
 ------------------------------------------------------------*/
