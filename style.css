@@ -1,7 +1,7 @@
 /*
 Theme Name: Unity Merchant
 Theme URI: https://webozza.com/
-Version: 3.0
+Version: 3.1.0
 Description: Custom Child Theme by @webozza
 Author: Webozza
 Template: Divi
@@ -337,6 +337,9 @@ Template: Divi
   border-bottom: 1px solid #000 !important;
 }
 #consultation_modal table {
+  border: none;
+}
+#file-wpbs-single-calendar-shortcode-LC1 {
   border: none;
 }
 
