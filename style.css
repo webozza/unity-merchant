@@ -219,9 +219,11 @@ Template: Divi
   content: "";
   position: absolute;
   bottom: 0;
+  left: 0;
   width: 0%;
   height: 2px;
   background-color: var(--theme-color);
+  transition: all 0.3s ease;
 }
 
 .features-header a:hover:before {
