@@ -211,11 +211,13 @@ Template: Divi
   transition: all 0.3s ease;
 }
 
-.features-header a:hover:after {
+.features-header a:hover:after,
+.um-naked-btn:hover:after {
   padding-left: 10px;
 }
 
-.features-header a:before {
+.features-header a:before,
+.um-naked-btn:before {
   content: "";
   position: absolute;
   bottom: 0;
@@ -226,7 +228,8 @@ Template: Divi
   transition: all 0.3s ease;
 }
 
-.features-header a:hover:before {
+.features-header a:hover:before,
+.um-naked-btn:hover:before {
   width: 100%;
 }
 
