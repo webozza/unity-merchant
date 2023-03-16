@@ -1,7 +1,7 @@
 /*
 Theme Name: Unity Merchant
 Theme URI: https://webozza.com/
-Version: 1.1
+Version: 3.0
 Description: Custom Child Theme by @webozza
 Author: Webozza
 Template: Divi
@@ -317,13 +317,33 @@ Template: Divi
   .wpbs-main-wrapper.wpbs-main-wrapper-calendar-1.wpbs-main-wrapper-form-1 {
     display: flex;
     flex-direction: row;
+    column-gap: 20px;
   }
+}
+#wpbs-form-submit-1 {
+  font-family: var(--um-font) !important;
+  font-weight: 500 !important;
+  border-radius: 25px !important;
+  padding: 8px 22px !important;
+}
+#wpbs-form-1 label {
+  font-family: var(--um-font);
+  font-weight: 500 !important;
+}
+#wpbs-form-1 input,
+#wpbs-form-1 select,
+#wpbs-form-1 textarea {
+  border: none !important;
+  border-bottom: 1px solid #000 !important;
+}
+#consultation_modal table {
+  border: none;
 }
 
 /* UM BUTTONS
 ------------------------------------------------------------*/
 .um-btn-primary,
-.wpbs-form-submit-button {
+#wpbs-form-submit-1 {
   background: linear-gradient(
     100deg,
     var(--theme-color) 0%,
