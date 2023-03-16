@@ -176,6 +176,23 @@ Template: Divi
   }
 }
 
+.features-header h2 {
+  font-size: 32px;
+}
+
+.features-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  font-family: var(--um-font);
+  padding-bottom: 50px;
+}
+
+.features-header p {
+  font-size: 16px;
+}
+
 /* HOTSPOT SECTION
 ------------------------------------------------------------*/
 .hotspot-container {
