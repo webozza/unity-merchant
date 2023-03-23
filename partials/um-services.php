@@ -9,7 +9,7 @@
 <!-- RENDER SERVICES LOOP -->
 <div class ="services-container">
     <?php if ( $service->have_posts() ) : ?>
-        <?php while ( $service->have_posts() ) : $service->the_post(); ?>
+        <?php $i = 9; while ( $service->have_posts() && $i < 10) : $service->the_post(); ?>
 
             <a href="<?= get_permalink() ?>">
                 <div class="service-box">
@@ -22,7 +22,7 @@
                 </div>
             </a>
                 
-        <?php endwhile; ?>
+        <?php $i++; endwhile; ?>
         <?php wp_reset_postdata(); ?>
     <?php endif; ?>
 </div>
