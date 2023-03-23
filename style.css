@@ -369,8 +369,12 @@ Template: Divi
   z-index: -1;
   padding: 3px 10px;
   padding-left: 30px;
+  padding-right: 15px;
   color: #000;
   font-family: var(--um-font);
+}
+.hotspot-active .hotspot-label {
+  display: none;
 }
 
 /* VIDEO SECTION
