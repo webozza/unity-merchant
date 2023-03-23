@@ -1,5 +1,7 @@
 <?php
 
+// lalalal
+
 function webozza_assets() {
     // STYLESHEETS
     wp_enqueue_style( 'swiper', get_stylesheet_directory_uri() . '/css/swiper.min.css' );
