@@ -1,6 +1,6 @@
 <?php
 
-// lalalalalala
+// lalalalalalala
 
 function webozza_assets() {
     // STYLESHEETS
