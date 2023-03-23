@@ -112,6 +112,10 @@ Template: Divi
 .services-container > a {
   min-width: 32%;
 }
+.services-container > a:hover img {
+  transform: scale(1.1);
+  opacity: 1;
+}
 .service-thumb {
   display: flex;
   justify-content: center;
@@ -124,6 +128,7 @@ Template: Divi
 .service-thumb img {
   width: auto;
   height: 80%;
+  transition: all 0.3s ease;
 }
 .service-title h5 {
   padding: 10px 0;
