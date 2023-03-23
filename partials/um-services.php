@@ -1,7 +1,7 @@
 <?php
     $query_services = array(
         'post_type' => "um_services",
-        'post_per_page' => -1,
+        'post_per_page' => 9,
     );
     $service = new WP_Query($query_services);
 ?>
