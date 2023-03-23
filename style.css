@@ -96,6 +96,36 @@ Template: Divi
 
 /* UM SERVICES
 ------------------------------------------------------------*/
+.services-container a:nth-child(odd) .service-thumb {
+  background-color: var(--um-service-bg-1);
+}
+.services-container a:nth-child(even) .service-thumb {
+  background-color: var(--um-service-bg-3);
+}
+.services-container {
+  display: flex;
+  flex-direction: row;
+  column-gap: 2%;
+  row-gap: 20px;
+  flex-wrap: wrap;
+}
+.services-container > a {
+  min-width: 30%;
+}
+.service-thumb {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 200px;
+}
+.service-thumb img {
+  width: auto;
+  height: 50px;
+}
+.service-title h5 {
+  padding: 10px 0;
+  font-family: var(--um-service-bg-1);
+}
 
 /* UM FEATURES
 ------------------------------------------------------------*/
