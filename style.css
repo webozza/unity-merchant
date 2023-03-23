@@ -110,7 +110,7 @@ Template: Divi
   flex-wrap: wrap;
 }
 .services-container > a {
-  min-width: 30%;
+  min-width: 32%;
 }
 .service-thumb {
   display: flex;
