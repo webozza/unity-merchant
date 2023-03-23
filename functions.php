@@ -27,7 +27,7 @@ function create_um_services() {
             'rewrite' => array('slug' => 'um_service'),
             'show_in_rest' => true,
 			'supports' => array( 'title', 'editor', 'custom-fields', 'thumbnail' ),
-			'menu_icon' => '/wp-content/uploads/2023/03/favicon.png',
+			'menu_icon' => get_stylesheet_directory_uri() . '/img/favicon.webp',
         )
     );
 }
@@ -61,7 +61,7 @@ function create_um_clients() {
             'rewrite' => array('slug' => 'um_client'),
             'show_in_rest' => true,
 			'supports' => array( 'title', 'editor', 'custom-fields', 'thumbnail' ),
-			'menu_icon' => '/wp-content/uploads/2023/03/favicon.png',
+			'menu_icon' => get_stylesheet_directory_uri() . '/img/favicon.webp',
         )
     );
 }
