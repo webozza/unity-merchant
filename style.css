@@ -117,12 +117,13 @@ Template: Divi
   justify-content: center;
   align-items: center;
   min-height: 200px;
+  height: 200px;
   border-radius: 15px;
   box-shadow: 0 0 7px rgba(0, 0, 0, 7%);
 }
 .service-thumb img {
   width: auto;
-  height: 80px;
+  height: 80%;
 }
 .service-title h5 {
   padding: 10px 0;
