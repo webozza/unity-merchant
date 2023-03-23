@@ -12,6 +12,10 @@ Template: Divi
   --theme-color: #3674f9;
   --hover-color: #254992;
   --um-font: "Poppins", Helvetica, Arial, Lucida, sans-serif;
+  --um-service-bg-1: rgba(29, 78, 255, 0.1);
+  --um-service-bg-2: rgba(255, 186, 82, 0.2);
+  --um-service-bg-3: rgba(0, 201, 201, 0.1);
+  --um-service-bg-4: rgba(15, 17, 84, 0.1);
 }
 
 .hidden {
