@@ -1,6 +1,6 @@
 <div class="features-header">
     <div class="inner-left">
-        <h2>Expand Your Business Globally</h2>
+        <h2>Worldwide Payments Made Easy</h2>
         <p>Accept payments from customers worldwide with our secure and reliable platform.</p>
     </div>
     <div class="inner-right">
