@@ -1,7 +1,5 @@
 <?php
 
-// fff
-
 function webozza_assets() {
     // STYLESHEETS
     wp_enqueue_style( 'swiper', get_stylesheet_directory_uri() . '/css/swiper.min.css' );
@@ -27,7 +25,7 @@ function create_um_services() {
             'rewrite' => array('slug' => 'um_service'),
             'show_in_rest' => true,
 			'supports' => array( 'title', 'editor', 'custom-fields', 'thumbnail' ),
-			'menu_icon' => get_stylesheet_directory_uri() . '/img/favicon.webp',
+			'menu_icon' => get_stylesheet_directory_uri() . '/img/favicon.png',
         )
     );
 }
@@ -61,7 +59,7 @@ function create_um_clients() {
             'rewrite' => array('slug' => 'um_client'),
             'show_in_rest' => true,
 			'supports' => array( 'title', 'editor', 'custom-fields', 'thumbnail' ),
-			'menu_icon' => get_stylesheet_directory_uri() . '/img/favicon.webp',
+			'menu_icon' => get_stylesheet_directory_uri() . '/img/favicon.png',
         )
     );
 }
