@@ -92,48 +92,6 @@ Template: Divi
 
 /* UM SERVICES
 ------------------------------------------------------------*/
-.swiper {
-  font-family: var(--um-font);
-}
-.services-container .service-box:hover {
-  transform: translateY(-50px);
-  transition: all 0.3s ease;
-}
-.services-container .swiper {
-  padding: 50px 0;
-}
-.service-title {
-  text-align: center;
-  margin-top: 10px;
-}
-.service-title h5 {
-  font-size: 1.1em;
-  line-height: 1.2em;
-}
-.services-container {
-  display: flex;
-  align-items: center;
-}
-.um-prev-service {
-  position: absolute;
-  left: -50px;
-}
-.um-next-service {
-  position: absolute;
-  right: -50px;
-}
-.um-services-section .inner-container {
-  padding-top: 50px;
-  box-shadow: 0 0 7px rgb(0 0 0 / 10%);
-  margin: 0 50px;
-  border-radius: 25px;
-  background-color: rgba(0, 0, 0, 2%);
-}
-.um-services-section .um-naked-btn {
-  float: right;
-  position: relative;
-  top: 15px;
-}
 
 /* UM FEATURES
 ------------------------------------------------------------*/
