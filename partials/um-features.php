@@ -22,6 +22,7 @@
                     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
                     <a href="#">Learn more</a>
                 </div>
+                <div class="hotspot-label">Feature 1</div>
             </div>
         </div>
     </div>
@@ -38,6 +39,7 @@
                     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
                     <a href="#">Learn more</a>
                 </div>
+                <div class="hotspot-label">Feature 2</div>
             </div>
         </div>
     </div>
