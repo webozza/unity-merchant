@@ -499,7 +499,7 @@ Template: Divi
   font-size: 1.2em;
 }
 .um-btn-primary:hover {
-  background-color: linear-gradient(
+  background: linear-gradient(
     100deg,
     var(--hover-color) 0%,
     var(--theme-color) 100%
