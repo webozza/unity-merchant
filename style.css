@@ -383,9 +383,9 @@ Template: Divi
   margin-top: -10px;
 }
 .video-section > .et_pb_row_2 {
-  z-index: 11 !important;
+  z-index: 999 !important;
 }
-.video-section .et_pb_row_2 .et_pb_column_6 .et_pb_video_box iframe {
+.video-section .et_pb_row_2 .et_pb_column_4 .et_pb_video_box iframe {
   border-radius: 25px !important;
 }
 .video-section .um-naked-btn:before {
