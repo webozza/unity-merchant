@@ -26,4 +26,4 @@
         <?php wp_reset_postdata(); ?>
     <?php endif; ?>
 </div>
-<a class="um-naked-btn" href="">Explore Industries</a>
+<a class="um-btn-primary" href="">Explore Industries</a>
