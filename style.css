@@ -108,6 +108,7 @@ Template: Divi
   column-gap: 2%;
   row-gap: 20px;
   flex-wrap: wrap;
+  margin-bottom: 30px;
 }
 .services-container > a {
   min-width: 32%;
@@ -494,6 +495,15 @@ Template: Divi
   color: #fff;
   font-family: var(--um-font);
   border-radius: 25px;
+  padding: 10px 20px;
+  font-size: 1.2em;
+}
+.um-btn-primary:hover {
+  background-color: linear-gradient(
+    100deg,
+    var(--hover-color) 0%,
+    var(--theme-color) 100%
+  );
 }
 .um-naked-btn:hover {
   background-color: transparent !important;
