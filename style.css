@@ -567,11 +567,14 @@ Template: Divi
   font-family: var(--um-font);
   justify-content: space-around;
 }
-
 .um-industries h2 {
   font-size: 55px;
 }
-
 .um-industries p {
   font-size: 18px;
+}
+.um-industries > div svg {
+  position: absolute;
+  right: 0;
+  bottom: 7px;
 }
