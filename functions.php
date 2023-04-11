@@ -47,6 +47,14 @@ function sc_um_features() {
 }
 add_shortcode('um_features', 'sc_um_features');
 
+function sc_um_industries() {
+    ob_start();
+    include(get_stylesheet_directory() . '/partials/um-industries.php');
+    $content = ob_get_clean();
+    return $content;
+}
+add_shortcode('um_industries', 'sc_um_industries');
+
 function create_um_clients() {
     register_post_type( 'um_clients',
         array(
