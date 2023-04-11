@@ -558,3 +558,20 @@ Template: Divi
   border-radius: 25px;
   transition: all 0.3s ease;
 }
+
+/* UM Industries
+------------------------------------------------------------*/
+.um-industries {
+  display: flex;
+  flex-direction: row;
+  font-family: var(--um-font);
+  justify-content: space-around;
+}
+
+.um-industries h2 {
+  font-size: 55px;
+}
+
+.um-industries p {
+  font-size: 18px;
+}
