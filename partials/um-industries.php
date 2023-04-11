@@ -5,5 +5,6 @@
     </div>
     <div class="um-right-col">
         <?php include( get_stylesheet_directory() . '/img/top.php' ) ?>
+        <img src="<?= get_stylesheet_directory() . '/img/um-industries.jpg' ?>">
     </div>
 </div>
