@@ -4,6 +4,6 @@
         <p>Empowering Specialized Industries with Tailored Solutions</p>
     </div>
     <div class="um-right-col">
-        <?php include( get_stylesheet_directory() . '/img/top.svg' ) ?>
+        <?php include( get_stylesheet_directory() . '/img/top.php' ) ?>
     </div>
 </div>
