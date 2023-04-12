@@ -566,15 +566,22 @@ Template: Divi
   flex-direction: row;
   font-family: var(--um-font);
   justify-content: space-between;
+  position: relative;
 }
 .um-industries h2 {
-  font-size: 55px;
+  font-size: 70px;
 }
 .um-industries p {
   font-size: 18px;
 }
+.um-industries .um-left-col p {
+  margin-top: 15px;
+  padding-left: 5px;
+}
 .um-industries .um-left-col {
   z-index: 999;
+  padding-left: 100px;
+  padding-top: 100px;
 }
 .um-industries .um-svg {
   position: absolute;
