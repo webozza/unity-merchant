@@ -578,6 +578,13 @@ Template: Divi
 }
 .um-industries .um-svg {
   position: absolute;
-  right: 0;
-  bottom: 0;
+  right: -2.875rem;
+  bottom: 7px;
+  height: 100%;
+  width: 100%;
+}
+@media (min-width: 1500px) {
+  .um-industries .um-svg {
+    width: 78%;
+  }
 }
