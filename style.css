@@ -565,7 +565,7 @@ Template: Divi
   display: flex;
   flex-direction: row;
   font-family: var(--um-font);
-  justify-content: space-around;
+  justify-content: space-between;
 }
 .um-industries h2 {
   font-size: 55px;
@@ -576,8 +576,8 @@ Template: Divi
 .um-industries .um-left-col {
   z-index: 999;
 }
-.um-industries > div svg {
+.um-industries .um-svg {
   position: absolute;
   right: 0;
-  bottom: 7px;
+  bottom: 0;
 }
