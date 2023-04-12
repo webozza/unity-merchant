@@ -382,7 +382,8 @@ Template: Divi
 .video-section {
   margin-top: -10px;
 }
-.video-section > .et_pb_row_2 {
+.video-section > .et_pb_row_2,
+.video-section > .et_pb_row_3 {
   z-index: 999 !important;
 }
 .video-section .et_pb_row_2 .et_pb_column_4 .et_pb_video_box iframe {
