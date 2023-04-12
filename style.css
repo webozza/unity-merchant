@@ -577,6 +577,10 @@ Template: Divi
 .um-industries .um-left-col p {
   margin-top: 15px;
   padding-left: 5px;
+  font-size: 2em;
+  line-height: 1.5em;
+  color: #000;
+  max-width: 70%;
 }
 .um-industries .um-left-col {
   z-index: 999;
