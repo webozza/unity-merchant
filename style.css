@@ -590,8 +590,14 @@ Template: Divi
   height: 100%;
   width: 100%;
 }
-@media (min-width: 1500px) {
-  .um-industries .um-svg {
-    width: 78%;
-  }
+.um-industries .um-svg-img {
+  width: 50vw;
+}
+.um-industries .um-svg-img img {
+  width: 100%;
+}
+.bottom-svg {
+  height: 500px;
+  margin-top: -9px;
+  width: 133%;
 }
