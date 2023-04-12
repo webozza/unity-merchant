@@ -573,6 +573,9 @@ Template: Divi
 .um-industries p {
   font-size: 18px;
 }
+.um-industries .um-left-col {
+  z-index: 999;
+}
 .um-industries > div svg {
   position: absolute;
   right: 0;
