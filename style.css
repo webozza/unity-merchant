@@ -18,6 +18,10 @@ Template: Divi
   --um-service-bg-4: rgba(15, 17, 84, 0.1);
 }
 
+* {
+  font-family: var(--um-font) !important;
+}
+
 .hidden {
   display: none;
 }
