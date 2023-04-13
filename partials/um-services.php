@@ -26,4 +26,4 @@
         <?php wp_reset_postdata(); ?>
     <?php endif; ?>
 </div>
-<a class="um-btn-primary" href="/unity-merchant/all-services">Explore Industries</a>
+<a class="um-btn-primary" href="/um/all-services">Explore Industries</a>

@@ -10,7 +10,7 @@
 <div class="um-features-container">
     <!-- <div class="um-overlay"></div> -->
     <div class="um-feature">
-        <img src="/unity-merchant/wp-content/uploads/2023/03/person-paying-using-nfc-technology-min-scaled.jpg">
+        <img src="/um/wp-content/uploads/2023/03/person-paying-using-nfc-technology-min-scaled.jpg">
         <div class="hotspot-container">
             <div class="hotspot hotspot-1">
                 <div class="hotspot-btn softbeat">
@@ -27,7 +27,7 @@
         </div>
     </div>
     <div class="um-feature">
-        <img src="/unity-merchant/wp-content/uploads/2023/03/girl-paying-her-latte-with-smartphone-by-contactless-pay-pass-technology-min-scaled.jpg">
+        <img src="/um/wp-content/uploads/2023/03/girl-paying-her-latte-with-smartphone-by-contactless-pay-pass-technology-min-scaled.jpg">
         <div class="hotspot-container">
             <div class="hotspot hotspot-2">
                 <div class="hotspot-btn softbeat">
